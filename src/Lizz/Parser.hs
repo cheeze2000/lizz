@@ -13,3 +13,6 @@ fromStrings (x:xs) = Lizz' x ys' : fromStrings zs
 
 fromString :: String -> Lizz
 fromString = fromStrings . lines
+
+toString :: Lizz -> String
+toString = unlines . map show
