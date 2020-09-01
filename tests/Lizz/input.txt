@@ -1,0 +1,15 @@
+* item 1
+* item 2
+  * nested item 1
+  * nested item 2
+* item 3
+  * nested item 3
+    * nested item 4
+      * nested item 5
+  * nested item 6
+  * nested item 7
+* item 4
+* item 5
+  * nested item 8
+    * nested item 9
+* item 6
