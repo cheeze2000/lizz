@@ -15,6 +15,7 @@ library
   exposed-modules:   Lizz.Format
                    , Lizz.Internal
                    , Lizz.Parser
+                   , Lizz.Utils
   build-depends:     base
 
 test-suite lizz-tests
@@ -25,4 +26,5 @@ test-suite lizz-tests
   other-modules:     Lizz.Format
                    , Lizz.Internal
                    , Lizz.Parser
+                   , Lizz.Utils
   build-depends:     base, Cabal
